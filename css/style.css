@@ -1,14 +1,114 @@
 body {
-  padding: 0px;
-  margin: 0px;
-  font-family: Verdana;
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }
-.header {
-  background-color: lightblue;
-  padding: 0px;
-  margin: 0px;
+
+h1 {
+  margin: 50px auto -30px auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #5E454B;
+  line-height: 2;
+}
+
+.top {
+  background-color: #CEE5D0;
+  position: relative;
+  padding-top: 100px;
+}
+h2  {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  color: #5E454B;
+  font-weight: normal;
 }
 h3 {
-  padding: 0px;
-  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #D8B384;
+}
+
+.middle-container {
+  margin-top: 100px;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #5E454B;
+  margin-bottom: 0px;
+  padding: 20px;
+  color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.mountain {
+  margin: 0;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-pic {
+  width: 20%;
+  border-radius: 150px;
+  border: solid;
+}
+.skills-pic {
+  width: 25%;
+  margin-right: 30px;
+  border-radius: 150px;
+  border: 1px solid;
+  float: left;
+}
+.hobbie-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border: 1px solid;
+  border-radius: 150px;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #D8B384;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  clear: both
+}
+
+.btn {
+  border-radius: 8px;
+  background-image: linear-gradient(#D8B384, #5E454B);
+  color: White;
+  border: 1px solid #5E454B;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+.btn:hover {
+  color: lightgrey;
+}
+.footer-link {
+  color: #D8B384;
+  text-decoration: none;
+  margin-right: 30px;
 }
